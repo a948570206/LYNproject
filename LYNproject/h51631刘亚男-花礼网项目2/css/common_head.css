@@ -1,0 +1,275 @@
+body,
+html,
+div,
+img,
+input,
+form,
+ul,
+li,
+dl,
+dd,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p,
+i{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑"
+}
+li,
+dt,
+dd{
+	list-style: none;
+}
+a{
+	outline: none;
+	text-decoration: none;
+}
+img{
+	outline: none;
+	display: block;
+	border: 0;
+}
+input,
+button{
+	outline: none;
+	border: none;
+	background: none;
+}
+
+#common_header,.logo_out,.nav_out,#changeimg,#container_out{width: 100%;}
+#common_head,.logo,.nav,#container_out{width: 1200px;margin:0 auto ;}
+#common_head{height: 36px;}
+#common_header{background-color: #f2f2f2;}
+.common_u1{position: relative;width: 360px;height: 36px;float: left;}
+
+.common_u1 li a{display:block;color:#737373 ; height: 38px;line-height:36px;padding-left:36px; padding-right:8px;float:left;font-size: 12px;}
+.common_u1  li:hover{color: #ff6a00;}
+.common_u1 li a:hover{color: #ff6a00;}
+#common_div{position: absolute;left: 161px;z-index: -1;top: 36px;text-align: center;border: 1px solid gainsboro;display: none;}
+.common_img{margin: 20px;margin-bottom: 10px;}
+#common_div p{font-size: 12px;color: #737373;line-height: 16px;}
+#common_weixin:hover #common_div{display: block;transition-duration: 2s;z-index: 2;background: white;}
+#common_weixin{overflow: hidden;margin-top: -1px;}
+#common_weixin:hover{border: 1px solid gainsboro;border-bottom: none;padding-left:34px;background: white;}
+#common_div2{position: absolute;left: 253px;z-index: -1;top: 36px;text-align: center;border: 1px solid gainsboro;display: none;}
+#common_phone:hover #common_div2{display: block;transition-duration: 2s;z-index: 2;background: white;}
+#common_div2 p{font-size: 12px;color: #737373;line-height: 16px;}
+#common_phone{overflow: hidden;margin-top: -1px;}
+#common_phone:hover{border: 1px solid gainsboro;border-bottom:none;;background: white;}
+#xing {position:absolute;left:18px;top:9px;background: url(../img/jingling.png) no-repeat ;width: 16px;height: 16px;background-position: -5px -320px;}
+#weixin {position:absolute;left:172px;top:9px;background: url(../img/jingling.png) no-repeat ;width: 22px;height: 16px;background-position: -376px -135px;}
+#phone {position:absolute;left:268px;top:9px;background: url(../img/jingling.png) no-repeat ;width: 16px;height: 16px;background-position: -300px -174px;}
+.common_u2 {margin-left: 484px;}
+.common_u2{position: relative;height: 36px;}
+
+.common_u2 li a{display:block;color:#737373 ; height: 38px;line-height:36px; padding-right:8px;padding-left:10px;float:left;font-size: 12px;}
+.common_u2  li{ float: left;height: 36px;line-height: 36px;color:#d9d9d9; }
+.common_u2 li a:hover{color: #ff6a00;}
+.common_u2 li div{height: 36px;line-height: 36px;}
+#customer{position: relative;width: 68px;}
+#my:hover{border: 1px solid gainsboro;border-bottom: none;padding-left: 8px;background: white;}
+#customer_div{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  #737373 transparent transparent transparent;position: absolute;left:65px;top: 16px;}
+#customer:hover #customer_div{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  #ff6a00 transparent transparent transparent;position: absolute;left:65px;top: 16px;}
+#customer_menu span{display: block;height: 0;line-height:16px;text-align: center;}
+#customer_menu{position:absolute;border: 1px solid gainsboro;display: none;height: 130px;line-height: 22px;padding-top: 10px;width: 84px;height: 92px;margin-left: -9px;border-top: none;}
+#customer:hover #customer_menu{display: block;color: gray;z-index: 2;background: white;}
+#customer:hover{padding-left:8px;border: 1px solid gainsboro;border-bottom: none;;background: white;}
+#car {width: 110px;text-align: center;position: relative;}
+#car_div{width: 24px;height: 22px;background:url(../img/jingling.png) no-repeat;background-position: -340px -284px;position: absolute;left: 8px;top:6px;}
+#car_tri{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  #737373 transparent transparent transparent;position: absolute;left:98px;top: 16px;}
+#car:hover{padding-left:8px;color: #ff6a00;background-color: white;border: 1px solid gainsboro;border-bottom: none;}
+#car:hover #car_tri{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  #ff6a00 transparent transparent transparent;position: absolute;left:98px;top: 16px;
+}
+#car_content{z-index:-1;display:none;position: absolute;left: -196px;top: 35px;width: 324px;height: 128px;border: 1px solid gainsboro;text-align: center;line-height: 128px;color: #737373;}
+#car:hover #car_content{display: block;z-index: 2;background: white;}
+.logo_out{background: white;}
+.logo{height: 120px;position: relative;}
+.logo_flower{position: absolute;top:28px;}
+#search{float:left;border: 1px solid #FF6A00;width: 238px;height: 34px;}
+.logo_search{width: 330px;height: 58px;position: absolute;top: 42px;left: 498px;}
+#so{float:left;display:block;height: 36px;width: 84px;line-height:34px;text-align:center;color: white;background: #FF6A00;}
+#friend a{font-size: 12px;color: #999999;}
+#friend a:hover{color: #FF6A00;text-decoration: underline;}
+#friend span{color: #999999;}
+.phone{position: absolute;color:#737373;right: 0px;top: 47px;width: 256px;height: 42px;}
+.phone_div{float: left;position:absolute;width: 24px;height: 24px;background: url(../img/jingling.png) no-repeat;background-position: -384px -50px;}
+.phone_s{float: left;display: block;margin-left: 28px;}
+.phone_sp{display: block;float: left;}
+.phone_d2v{position: absolute;right:83px;width: 25px;height: 20px;background:url(../img/jingling.png) no-repeat;background-position: -296px -133px;}
+.phone_spa{float: left;margin-left: 40px;}
+.phone a:hover{color: #FF6A00;text-decoration: underline;}
+.phone_spa a{color: #737373;}
+#customer_menu span:hover{color: #FF6A00;text-decoration: underline;}
+.nav_out{background: white;border-bottom: 2px solid #FF6A00;height: 40px;}
+.son{width: 232px;height: 40px;background: #FF6A00;font-size: 14px;font-weight: bold;}
+.son p{color: white;font-size: 15px;margin-left: 16px;height: 40px;line-height: 40px;}
+.brother ul li{float: left;padding-left: 24px;padding-right: 24px;height: 40px;line-height: 40px;}
+.brother ul li:hover{color: #FF6A00;}
+.son,.brother{float: left;}
+.bottom_nav_out{width: 100%;margin-top: 32px;}
+.bottom_nav{width: 1200px;margin: 0  auto;}
+.bottom_nav a{margin-left: 25px;margin-right: 20px;color: #737373;font-size: 10px;}
+.bottom_nav a:hover{color: #FF6600;text-decoration: underline;}
+.bottom_help_out{margin-top: 30px;width: 100%;background: #f2f2f2;}
+.bottom_help{width: 1200px;margin: 0 auto;padding-top: 32px;height: 178px;}
+.help{width: 250px;height: 144px;border-right: 1px solid #d9d9d9;margin-left: 32px;}
+.help h4{font-size: 14px; font-weight: 100;}
+.help ul{float: left;margin-top: 0px;margin-right: 36px;}
+.help ul li{font-size: 10px;margin-top: 10px;color: #737373;}
+.help ul li:hover{color: #FF6600;text-decoration: underline;}
+.hot{width: 220px;height: 144px;border-right: 1px solid #d9d9d9;margin-left: 60px;}
+.hot h4{font-size: 14px; font-weight: 100;}
+.hot ul{float: left;margin-top: 0px;margin-right: 36px;}
+.hot ul li{font-size: 10px;margin-top: 9px;color: #737373;}
+.hot ul li:hover{color: #FF6600;text-decoration: underline;}
+.bottom_help div{float: left;}
+.same_city{width: 220px;height: 144px;border-right: 1px solid #d9d9d9;margin-left: 60px;}
+.same_city h4{font-size: 14px; font-weight: 100;}
+.same_city ul{float: left;margin-top: 0px;margin-right: 36px;}
+.same_city ul li{font-size: 10px;margin-top: 5px;color: #737373;}
+.same_city ul li:hover{color: #FF6600;text-decoration: underline;}
+.phone_us{width: 220px;height: 144px;border-right: 1px solid #d9d9d9;margin-left: 60px;}
+.phone_us h4{font-size: 14px; font-weight: 100;}
+.phone_us ul{float: left;margin-top: 0px;margin-right: 36px;}
+.phone_us ul li{font-size: 10px;margin-top: 9px;color: #737373;}
+.phone_us ul li:hover{color: #FF6600;text-decoration: underline;}
+.footer_out{width: 100%;background: white;margin-top: 30px;}
+.footer{width: 1200px;margin: 0 auto;}
+.footer_img{position: relative;height: 50px;}
+.footer_img1 img {width: 100px;
+    height: 36px;
+    position: absolute;
+    bottom: 0px;
+    left: 149px;}
+.footer_img2{position: absolute;bottom: 0;left: 271px;}
+.footer_img3{position: absolute;bottom: 0;left: 398px;}
+.footer_img4{position: absolute;bottom: 0;left: 518px;}
+.footer_img5{position: absolute;bottom: 0;right: 360px;}
+.footer_img6{position: absolute;bottom: 0;right: 196px;}
+.footer_img7{position: absolute;bottom: 0;right: 146px;}
+.footer_img8{position: absolute;bottom: 0;right: 98px;}
+.footer_img9{position: absolute;bottom: 0;right: 56px;}
+.footer_img1 :hover{position: absolute;
+    bottom: -1px;
+    left: 144px;
+    width: 127px;
+    height: 54px;}
+.law{margin-top: 38px;}
+.law a{font-size: 10px;color: #999999;}
+.law p{font-size: 10px;color: #999999;width: 1200px;text-align: center;}
+.law a:hover{color: #FF6600;text-decoration: underline;}
+.friend{height:70px;margin-top: 32px;width: 1200px;border-bottom: 1px solid #d9d9d9;border-top: 1px solid #d9d9d9;}
+.friend span{display: block;font-weight: bold;height: 70px;line-height: 70px;font-size: 14px;color: #737373;float: left;margin-right: 10px;}
+.friend a{float: left;height:70px;line-height: 70px;margin-left: 4px;margin-right: 6px;font-size: 10px; color: #737373;}
+.friend a:hover{color: #FF6600;text-decoration: underline;}
+.right_menu{height: 100%;width: 34px;background: #595656;position: fixed;right: 0;z-index: 2;top: 0;}
+.user_log{background: url(../img/jingling2.png) no-repeat;width: 34px;height: 28px;background-position: -6px -4px;margin-left: 5px;margin-top: 5px;}
+.user{position: absolute;top: 246px;width: 34px;height: 40px;}
+.user:hover{background: #FF6600;}
+.user_log_in{width: 291px;height: 202px;position: absolute;right: 34px ;top: 0;background: white;border: 1px solid #eeeeee;border-radius: 8px;display: none;}
+.user_log_in span{position: absolute;top: 20px;left: 104px;}
+.user_log_in a{position: absolute;left: 88px;bottom: 70px;font-size: 10px;}
+.user_log_in a em{color: #FF6600;font-style: normal;margin-left: 5px;}
+.user_log_in a em:{text-decoration: underline;}
+.user_log_in_son{width: 291px;height:40px ;position: absolute;bottom: 0;left: 0;background: #f8f8f8;}
+.user_log_in_logo{width: 55px;height: 22px;background: url(../img/wenjian.png) no-repeat left center;position: absolute;padding-left: 25px;font-size: 12px;line-height:22px ;left: 108px;bottom: 10px;}
+.little_logo{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  transparent transparent transparent white;position: absolute;right: -17px;top: 8px;}
+.user:hover .user_log_in{display: block;}
+.right_car{width: 34px;height: 180px;position: absolute;top: 284px;border-bottom: 1px solid #939191;border-top: 1px solid #939191;}
+.right_car p{color: #939191;}
+.right_car_logo{background: url(../img/jingling2.png) no-repeat;background-position: -9px -47px;width: 18px;height: 18px;display: block;position: absolute;left: 7px;top: 22px;}
+.right_car a{font-size: 12px;color: white;margin: 13px;}
+.right_car i{display:block;width: 21px;height: 21px;border-radius: 50%;background: #FF6600;font-style: normal;position: absolute;left: 7px;top:136px}
+.right_car i span{margin-left: 6px;color: white;}
+.right_car:hover{background: #FF6600;}
+.right_car:hover .right_car_i{background: white;}
+.right_car:hover .right_car_i span{color: #FF6600;}
+.heart{position: absolute;top: 480px;width: 34px;height: 40px;left: 0;}
+.heart_img{background: url(../img/jingling2.png) no-repeat;background-position: -8px -82px;width: 19px;height: 16px;margin-left: 7px;margin-top: 10px;}
+.heart_div{position: absolute;width: 120px;height: 40px;background: white;right: 70px;top: 0px;font-size: 14px;line-height: 40px;text-align: center;display: none;}
+.heart_tri{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  transparent transparent transparent white;position: absolute;right: -17px;top: 8px;}
+.heart:hover{background: #FF6600;}
+.lasttime{position: absolute;top: 530px;width: 34px;height: 40px;left: 0;}
+.lasttime_img{background: url(../img/jingling2.png) no-repeat;background-position: -8px -117px;width: 19px;height: 19px;margin-left: 7px;margin-top: 10px;}
+.lasttime_div{position: absolute;width: 120px;height: 40px;background: white;right: 70px;top: 0px;font-size: 14px;line-height: 40px;text-align: center;display: none;}
+.lasttime_tri{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  transparent transparent transparent white;position: absolute;right: -17px;top: 8px;}
+.lasttime:hover{background: #FF6600;}
+.tel{position: absolute;top: 580px;width: 34px;height: 40px;left: 0;}
+.tel_img{background: url(../img/jingling2.png) no-repeat;background-position: -8px -154px;width: 19px;height: 19px;margin-left: 7px;margin-top: 10px;}
+.tel_div{position: absolute;width: 120px;height: 40px;background: white;right: 70px;top: 0px;font-size: 14px;line-height: 40px;text-align: center;display: none;}
+.tel_tri{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  transparent transparent transparent white;position: absolute;right: -17px;top: 8px;}
+.tel:hover{background: #FF6600;}
+.ontel{position: absolute;top: 630px;width: 34px;height: 40px;left: 0;}
+.ontel_img{background: url(../img/jingling2.png) no-repeat;background-position: -8px -190px;width: 19px;height: 19px;margin-left: 7px;margin-top: 10px;}
+.ontel_div{position: absolute;width: 120px;height: 40px;background: white;right: 70px;top: 0px;font-size: 14px;line-height: 40px;text-align: center;display: none;}
+.ontel_tri{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  transparent transparent transparent white;position: absolute;right: -17px;top: 8px;}
+.ontel:hover{background: #FF6600;}
+
+.code{position: absolute;top: 680px;width: 34px;height: 40px;left: 0;}
+.code_img{background: url(../img/jingling2.png) no-repeat;background-position: -8px -226px;width: 19px;height: 19px;margin-left: 7px;margin-top: 10px;}
+.code_div{position: absolute;width: 290px;height: 200px;background: white;right: 34px;top: -168px;font-size: 14px;line-height: 40px;border: 1px solid #999999;display: none;border-radius: 8px;}
+.code_tri{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  transparent transparent transparent white;position: absolute;right: -17px;top: 178px;}
+.code:hover{background: #FF6600;}
+.code_weixin{margin: 15px;float: left;}
+.code_weixin h4{display: block;height: 30px;line-height: 30px;padding-left: 10px;color: #737373;}
+.code_app{margin: 15px;float: left;}
+.code_app h4{display: block;height: 30px;line-height: 30px;padding-left: 10px;color: #737373;}
+.code:hover .code_div{display: block;}
+.returntop{position: absolute;top: 730px;width: 34px;height: 40px;left: 0;}
+.returntop_img{background: url(../img/jingling2.png) no-repeat;background-position: -8px -262px;width: 19px;height: 19px;margin-left: 7px;margin-top: 10px;}
+.returntop_div{position: absolute;width: 120px;height: 40px;background: white;right: 70px;top: 0px;font-size: 14px;line-height: 40px;text-align: center;display: none;}
+.returntop_tri{width: 0;
+			height: 0;
+			border-width: 8px;
+			border-style: solid;
+			border-color:  transparent transparent transparent white;position: absolute;right: -17px;top: 8px;}
+.returntop:hover{background: #FF6600;}
+
+
+
