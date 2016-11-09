@@ -1,0 +1,26 @@
+.car_contain_out{width: 100%;}
+.car_contain_{width: 1000px;margin: 0 auto;}
+.car_content{width: 996px;border: 1px solid #D9D9D9;margin: 0 auto;}
+.car_banner{width: 960px;background: #ebebeb;height: 40px;padding: 0 20px}
+.car_banner span{float: left;height: 40px;line-height: 40px;color: #737373;}
+.sc_goodsPic,.miao{float: left;}
+.sc_goodsPic{width: 80px;height: 80px;border: 1px solid #d9d9d9;margin-left: 20px;}
+.sc_goodsPic img{width: 100%;height: 100%;}
+.car_content li{margin-top: 20px;height: 100px;}
+.car_content ul{}
+.sc_goodsTitle{margin-left: 15px;width: 300px;}
+.sc_goodsTitle p{color:#737373;}
+.sc_goodsNum{color:#737373; width: 130px;}
+.sc_goodsBtn{;margin-top: 20px;color: #737373;width: 120px;}
+.sc_price{font-size: 12px;color:#999999;margin-left: 15px;width: 120px;}
+.sc_goodsBtn:hover{cursor: pointer;}
+.sc_goodsTitle,.sc_goodsNum,.sc_goodsNum,.sc_price,.sc_goodsBtn,.height_price{float: left;margin-top: 20px;}
+.total{width: 1000px;background: #ebebeb;height: 50px;margin-top:40px;}
+.total span{height: 50px;line-height: 50px;}
+.total .sss{margin-left: 740px;}
+.total a{float: right;width: 86px;height: 30px;color: white;font-size: 22px;padding: 10px 16px;background:#FF6A00 ;}
+.sub{margin-right: 8px;}
+.add{margin-left: 5px;}
+.add:hover{cursor: pointer;}
+.sub:hover{cursor: pointer;}
+

@@ -350,7 +350,7 @@ button{
 .img_title a{font-size: 12px;}
 .img_title a:hover{text-decoration: underline;color: #FF6600;}
 .shop_car{width: 220px;height: 27px;}
-.shop_car a{position:relative;float: left;height: 27px;line-height: 27px;color: black;font-size: 10px;text-align: center;width: 105px;border: 1px solid #D9D9D9;}
+.shop_car a{font-style:normal;position:relative;float: left;height: 27px;line-height: 27px;color: black;font-size: 10px;text-align: center;width: 105px;border: 1px solid #D9D9D9;}
 .xin_logo{display: block;background: url(../img/ico_heart_d.png) no-repeat;width: 16px;height: 16px;background-position: 0 0;position: absolute;left: 14px;
 top: 5px;}
 .car_logo{display: block;background: url(../img/ico_cart_d.png) no-repeat;width: 16px;height: 16px;background-position: 0 0;position: absolute;left: 14px;top: 5px;}
@@ -394,21 +394,19 @@ width: 0; right: 0;top: 13px;
 .foot_ul ul li {list-style: disc;color: #939191;font-size: 10px;margin: 10 0 10 0;}
 .foot_ul ul li a{display: block;height: 30px;line-height: 30px;}
 .foot_ul ul li a:hover{color: #FF6600;text-decoration: underline;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.car_content{z-index:-1;height: 896px;width: 256px;position: absolute;right: -290px;top:-286px;background: white;padding-left: 14px;padding-right: 14px;padding-top: 20px;}
+.shuliang{width: 232px;height: 40px;line-height: 40px;padding-left: 24px;border-top: 1px solid #d9d9d9;;border-bottom: 1px solid #d9d9d9;;margin-top: 20px;margin: 0 auto;}
+.sc_goodsPic,.miao{float: left;}
+.sc_goodsPic{width: 80px;height: 80px;border: 1px solid #d9d9d9;}
+.sc_goodsPic img{width: 100%;height: 100%;}
+.car_content li{margin-top: 20px;height: 100px;}
+.car_content ul{overflow: hidden;}
+.sc_goodsTitle{margin-left: 15px;}
+.sc_goodsTitle p{font-size: 12px;color:#999999;}
+.sc_goodsNum{font-size: 12px;color:#999999;margin-left: 15px;}
+.sc_goodsBtn{width: 100px;height: 30px;line-height: 30px;text-align: center;background: #FF6600;margin-left: 15px;margin-top: 20px;color: white;display: block;}
+.sc_price{font-size: 12px;color:#999999;margin-left: 15px;}
+.sc_goodsBtn:hover{cursor: pointer;}
 
 
 

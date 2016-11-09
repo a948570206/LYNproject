@@ -136,7 +136,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = 0 ; i < res.length ; i++ ){
-				str += '<div><img src='+res[i].img+'/><p><a class="ca" href="#">'+res[i].str+'</a></p></div>';
+				str += '<div><img src='+res[i].img+'/><p><a class="ca" href="shop.html">'+res[i].str+'</a></p></div>';
 			};
 			$('#count').html(str);
 		}
@@ -147,7 +147,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = 0 ; i < res.length-1 ; i++ ){
-				str += '<div><img src='+res[i].img+'/><p><a class="ca" href="#">'+res[i].str+'</a></p></div>';
+				str += '<div><img src='+res[i].img+'/><p><a class="ca" href="shop.html">'+res[i].str+'</a></p></div>';
 			};
 			str += '<div><div class="last_img" style="float:none;"><img src='+res[res.length-1].img+'/></div><p><a class="ca" href="#">'+res[res.length-1].str+'</a></p></div>'
 			str += "<div><p><a class ='whole'>全国蛋糕</a></p></div>";
@@ -161,7 +161,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = 0 ; i < res.length ; i++ ){
-				str += '<div><img src='+res[i].img+'/><p><a class="ca" href="#">'+res[i].str+'</a></p></div>';
+				str += '<div><img src='+res[i].img+'/><p><a class="ca" href="shop.html">'+res[i].str+'</a></p></div>';
 			};
 			$('#gift_img').html(str);
 		}
@@ -192,7 +192,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = 0 ; i < res.length/2 ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#love_li').html(str);
 		}
@@ -203,7 +203,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = res.length/2 ; i < res.length ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#love_li2').html(str);
 		}
@@ -214,7 +214,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = 0 ; i < res.length/2 ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#parent_li').html(str);
 		}
@@ -225,7 +225,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = res.length/2 ; i < res.length ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#parent_li2').html(str);
 		}
@@ -236,7 +236,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = 0 ; i < res.length/2 ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#forlong_li').html(str);
 		}
@@ -247,7 +247,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = res.length/2 ; i < res.length ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#forlong_li2').html(str);
 		}
@@ -258,7 +258,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = 0 ; i < res.length/2 ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#food_li').html(str);
 		}
@@ -269,7 +269,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = res.length/2 ; i < res.length ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#food_li2').html(str);
 		}
@@ -280,7 +280,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = 0 ; i < res.length/2 ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#gift_li').html(str);
 		}
@@ -291,7 +291,7 @@ $(function() {
 		success : function(res){
 			var str = '';
 			for( var i = res.length/2 ; i < res.length ; i++ ){
-				str += '<li><img src='+res[i].img+'/><p><a class="la" href="#">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
+				str += '<li><img src='+res[i].img+'/><p><a class="la" href="shop.html">'+res[i].str+'</a></p><p><a class="cp" href="#">'+res[i].price+'</a></p></li>';
 			};
 			$('#gift_li2').html(str);
 		}
@@ -341,4 +341,5 @@ $(function() {
 	$("#returntop").click(function(){
 		$("body,html").animate({scrollTop : 0},800)
 	})
+	
 })
